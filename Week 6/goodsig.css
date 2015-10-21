@@ -1,0 +1,106 @@
+.Home {
+  border: blue;
+  border-style: solid;
+  height: 100px;
+  border-radius: 100px;
+  background-color: blue;
+  width:100px;
+  margin-left: 400px;;
+  display: inline-block;
+
+
+}
+.Events {
+  border: blue;
+  border-style: solid;
+  height: 100px;
+  border-radius: 100px;
+  background-color: blue;
+  width:100px;
+  margin-left: 15px;
+  display: inline-block;
+
+
+}
+.Contactpage {
+  border: blue;
+  border-style: solid;
+  height: 100px;
+  border-radius: 100px;
+  background-color: blue;
+  width:100px;
+  margin-left: 15px;
+  display: inline-block;
+
+
+}
+.AboutUs {
+  border: blue;
+  border-style: solid;
+  height: 100px;
+  border-radius: 100px;
+  background-color: blue;
+  width:100px;
+  margin-left: 15px;
+  display: inline-block;
+
+
+}
+
+.Home:hover {
+  background-color: green;
+  border-color:green;
+  border-width:15px;
+
+
+}
+.Events:hover {
+  background-color: green;
+  border-color:green;
+  border-width:15px;
+}
+.Contactpage:hover {
+  background-color: green;
+  border-color:green;
+  border-width:15px;
+}
+.AboutUs:hover {
+  background-color: green;
+  border-color:green;
+  border-width:15px;
+}
+.reg {
+
+
+  font-size: 15px;
+  padding-top: 50px;
+  text-align: center;
+
+
+
+}
+
+h2 {
+  font-size: 50px;
+  color:blue;
+  font-family: sans-serif;
+  text-align: center;
+  border: solid;
+  border-width: thin;
+  padding:10px;
+}
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  color:white;
+  border: solid;
+  border-width: thin;
+  background-color: grey;
+  padding: 10px;
+}
+.menu {
+  font-size: 30px;
+  font-family: sans-serif;
+  color:blue;
+}
