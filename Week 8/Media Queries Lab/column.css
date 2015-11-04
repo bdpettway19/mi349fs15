@@ -1,0 +1,49 @@
+.prac {
+  margin: 0 auto;
+  width: 50%;
+  padding: 1em;
+  background: #e3e3e3;
+  -moz-column-count:3;
+
+  column-span: all;
+
+
+
+}
+.header {
+  text-align: center;
+  border-style: solid;
+  background-color: yellow;
+  margin-bottom: 20px;
+
+}
+
+@media (max-width: 799px) {
+  .prac {
+    -moz-column-count:1;
+    width: 100%;
+  }
+
+}
+@media (min-width: 800px) and (max-width:1199px) {
+  .prac {
+    -moz-column-count:2;
+    width:75%;
+  }
+}
+@media (min-width: 1200px) {
+  .prac {
+    -moz-column-count:3;
+    width:75%;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+/* vendor prefixing*/
+/*lookup actual dpi for browser specified*/
+/*media queries are like if statements for css, @media (condition) {
+rules and nests
+}
+}
+/*retina display for images so they aren't blurry with higher or lower pixels*/
+/*lookup apple retina display*/
