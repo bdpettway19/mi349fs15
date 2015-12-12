@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Webpage</title>
+    <link rel="stylesheet" href="homepage.css" media="screen" charset="uff-8" script="logo.js">
+  </head>
+  <body>
+    <a href="logo.html">
+        <img src="headlogo.png" class="box">
+    </a>
+    <div class ="navbar">
+      <ul class="navwords">
+    <li><a href="bio.html">Bio</a></li>
+    <li><a href="photography.html">Photography</a></li>
+        <ul class="mini">
+          <li><a href="">Travel Photography</a><li>
+          <li><a href="">Fashion Photography</a><li>
+          <li><a href="">Product Photography</a><li>
+        </ul>
+    <li><a href="interest.html">Interests</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    </ul>
+    </div>
+    <div class="slideshow">
+      <div class="images">
+        <img src="int1.jpg">
+
+            <h1 id="trav" onmouseover="mouseOver()" onmouseout="mouseOut()">Traveling</h1>
+
+        <img src="">
+        <img src="">
+        <img src="">
+        <img src="">
+      </div>
+
+
+    </div>
+    <div class="footer"></div>
+    <script>
+    function mouseOver() {
+    document.getElementById("trav").style.color = "green";
+    document.getElementById("trav").scale(0.7);
+}
+    function mouseOut() {
+    document.getElementById("trav").style.color = "black";
+}
+function zoom() {
+    document.getElementById("trav");
+    trav.setAttribute("transform", "scale(1.5)");
+}
+zoom();
+
+</script>
+    </script>
+  </body>
+</html>
